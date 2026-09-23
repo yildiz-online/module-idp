@@ -13,12 +13,16 @@
  *  OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
+
 /**
  * This module provides idp capabilities, it needs an implementation.
  *
  * @author Grégory Van den Borre
  */
 open module be.yildizgames.module.idp {
+
+    uses be.yildizgames.module.idp.IdpConnectorBuilder;
+
     requires be.yildizgames.module.jwt;
 
     exports be.yildizgames.module.idp;

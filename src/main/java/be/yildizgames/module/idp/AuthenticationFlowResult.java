@@ -1,7 +1,5 @@
 package be.yildizgames.module.idp;
 
-import be.yildizgames.module.jwt.session.UserSession;
-
 /**
  * @author Grégory Van den Borre
  */
